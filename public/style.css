@@ -1,0 +1,231 @@
+/* palette
+#4286f4
+*/
+
+body {
+    white-space: nowrap;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ 
+*:focus {
+    outline: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.overlay {
+    width: 100%;
+    display: inline-block;
+    height: 100vh;
+    vertical-align: top;
+    font-family: 'Amatic SC', cursive;
+    transition: all 1s ease;
+}
+
+#loginOverlay {
+    color:#4286f4;
+
+}
+
+#loginInnerWrapper {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 17vh;
+    height:60vh;
+}
+
+#loginLabel {
+    text-align: center;
+    font-size: 750%;
+    margin: 0;
+}
+
+#loginUsernameInput::placeholder, #loginPasswordInput::placeholder  {
+    color: #91b8f7;
+}
+
+#loginUsernameInput {
+    margin-top: 45px;
+    margin-left: 15%;
+
+    width: 70%;
+    font-size: 400%;
+    color:#4286f4;
+    font-family: 'Maven Pro', sans-serif;
+
+    border: none;
+    border-bottom-color: #4286f4;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+
+#loginPasswordInput {
+    margin-top: 30px;
+    margin-left: 15%;
+
+    width: 70%;
+    font-size: 400%;
+    color:#4286f4;
+    font-family: 'Maven Pro', sans-serif;
+
+    border: none;
+    border-bottom-color: #4286f4;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+
+#loginSubmitButton:hover {
+    background-color: #1c72ff;
+}
+
+#loginSubmitButton {
+    margin-top: 30px;
+    margin-left: 15%;
+
+    font-size: 300%;
+    font-family: 'Maven Pro', sans-serif;
+
+    transition: all .75s ease;
+    cursor: pointer;
+    height: 75px;
+    width: 70%;
+
+    background-color: #4286f4;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+}
+
+#loginFooter {
+    margin-top: 15vh;
+
+    padding-top: 10px;
+
+    font-size: 200%;
+    font-family: 'Maven Pro', sans-serif;
+
+    height: calc(8vh - 3px);
+    width: 100%;
+    text-align: center;
+    
+    border-top-color: #4286f4;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+#registerOverlay {
+    background-color:#4286f4;
+    color: white;
+}
+
+#registerInnerWrapper {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 14vh;
+    height:63vh;
+}
+
+#registerLabel {
+    text-align: center;
+    font-size: 750%;
+    margin: 0;
+}
+
+#registerUsernameInput::placeholder, #registerPassword1Input::placeholder, #registerPassword2Input::placeholder {
+    color: #ddd;
+}
+
+#registerUsernameInput {
+    margin-top: 45px;
+    margin-left: 15%;
+    width: 70%;
+    font-size: 400%;
+    background-color:#4286f4;
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+    border: none;
+
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+#registerPassword1Input {
+    margin-top: 30px;
+    margin-left: 15%;
+
+    width: 70%;
+    font-size: 400%;
+    background-color:#4286f4;
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+
+    border: none;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+
+#registerPassword2Input {
+    margin-top: 30px;
+    margin-left: 15%;
+
+    width: 70%;
+    font-size: 400%;
+    background-color:#4286f4;
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+
+    border: none;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+
+#registerSubmitButton:hover {
+    background-color: #ddd;
+}
+
+#registerSubmitButton {
+    margin-top: 30px;
+    margin-left: 15%;
+
+    font-size: 300%;
+    font-family: 'Maven Pro', sans-serif;
+
+    transition: all .75s ease;
+    cursor: pointer;
+    height: 75px;
+    width: 70%;
+
+    background-color: white;
+    color: #4286f4;
+
+    border: none;
+    border-radius: 5px;
+}
+
+#registerFooter {
+    margin-top: 15vh;
+
+    padding-top: 10px;
+
+    font-size: 200%;
+    font-family: 'Maven Pro', sans-serif;
+
+    height: calc(8vh - 3px);
+    width: 100%;
+    text-align: center;
+    
+    border-top-color: white;
+    border-top-style: solid;
+    border-top-width: 3px;
+}
+

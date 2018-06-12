@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>...</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Maven+Pro" rel="stylesheet">
+  </head>
+  <body>
+    <section id="loginOverlay" class="overlay"> 
+      <div id="loginInnerWrapper">
+        <h1 id="loginLabel">Login</h1>
+        <form onsubmit="login(); return false;">
+          <input id="loginUsernameInput" type="text" name="username" placeholder="Username"><br>
+          <input id="loginPasswordInput" type="password" name="password" placeholder="Password"><br>
+          <input id="loginSubmitButton" type="submit" value="Login" >
+        </form>
+      </div>
+      <footer id="loginFooter">
+        Need an account? <a onclick="transition(true);">Register</a>
+      </footer>
+    </section><section id="registerOverlay" class="overlay">
+        <div id="registerInnerWrapper">
+            <h1 id="registerLabel">Register</h1>
+            <form onsubmit="register(); return false;">
+              <input id="registerUsernameInput" type="text" name="username" placeholder="Username"><br>
+              <input id="registerPassword1Input" type="password" name="password" placeholder="Password"><br>
+              <input id="registerPassword2Input" type="password" name="password" placeholder="Retype Password"><br>
+              <input id="registerSubmitButton" type="submit" value="Register" >
+            </form>
+          </div>
+          <footer id="registerFooter">
+            Already have an account? <a onclick="transition(false);">Login</a>
+          </footer>
+    </section>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
